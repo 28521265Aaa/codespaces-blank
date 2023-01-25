@@ -1,0 +1,9 @@
+[拉登]
+#蛮力 WinRM
+exe=cmd.exe
+arg=/c “chcp 437 & Winrs -r：http：//$ip$：5985 -u：$user$ -p：$pass$ ”echo isok""
+#exe=WinrmScan.exe
+#arg=$ip$ $user$ $pass$
+端口 = 5985
+伊索克=伊索克
+日志=真
